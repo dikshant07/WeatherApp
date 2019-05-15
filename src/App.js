@@ -58,7 +58,7 @@ class App extends React.Component{
  }
  temperature = (tempt)=> {
    var a = tempt - 273.15
-   return a;
+   return (Math.round(a*100)/100);
  }
   onSubmitHandler = async (city,name,sunrise,sunset,tmpmx,tmpmn,country,date,description,wind,humidity,pressure,icon,status)=>{
 

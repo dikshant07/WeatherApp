@@ -8,7 +8,7 @@ const Displaydata = (props) => {
       </div>
       <div className="bdy-container">
       <div className="bdy-container1">
-        {props.tmpmx}<sup>.</sup>C
+        {props.tmpmx}<sup id="degree">0</sup>C
         <img src={props.icon}/>
       </div>
       <div className="bdy-container2">
