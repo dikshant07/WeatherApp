@@ -1,0 +1,13 @@
+#userComments{
+  background-color: pink;
+  font-size: 20px;
+  width: 90%;
+  padding: 15px;
+}
+#addList{
+  background-color: blue;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}
